@@ -1,0 +1,20 @@
+{
+    "name": "Lab 7",
+    "endpoint": "cal/cs88/fa22/lab07",
+    "src": [
+        "lab07.py"
+    ],
+    "tests": {
+        "tests/car.py": "ok_test",
+        "lab07.py:Keyboard": "doctest"
+    },
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup",
+        "scoring"
+    ]
+}

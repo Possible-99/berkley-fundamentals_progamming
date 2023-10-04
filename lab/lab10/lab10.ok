@@ -1,0 +1,20 @@
+{
+    "name": "Lab 10",
+    "endpoint": "cal/cs88/fa22/lab10",
+    "src": [
+        "lab10.py"
+    ],
+    "tests": {
+        "lab10.py:search": "doctest",
+        "lab10.py:cumulative_sum": "doctest",
+        "lab10.py:add_d_leaves": "doctest"
+    },
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

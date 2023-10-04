@@ -1,0 +1,19 @@
+{
+    "name": "Homework 10",
+    "endpoint": "cal/cs88/fa22/hw10",
+    "src": [
+        "hw10.py"
+    ],
+    "tests": {
+        "hw10.py:leaves": "doctest",
+        "hw10.py:path": "doctest",
+        "hw10.py:find_level": "doctest"
+    },
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}
